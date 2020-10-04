@@ -3,18 +3,15 @@ import initSr from './js/sr';
 
 import './style/main.scss';
 
-$('a[href^="#"]').on('click', function(event) {
-  var target = $(this.getAttribute('href'));
-  if (target.length) {
-    event.preventDefault();
-    $('html, body')
-      .stop()
-      .animate(
-        {
-          scrollTop: target.offset().top
-        },
-        1000
-      );
+$('div[ttt="proj-detail"]').on('click', function(event) {
+  var x = event.target;
+  document.getElementById(x.getAttribute("for")).style.display = "block";
+});
+
+$('div[class="display-details"]').on('click', function(event) {
+  var x = document.getElementsByClassName("display-details");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
 });
 

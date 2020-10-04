@@ -110,22 +110,24 @@
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">Horizontal Auto-scaling Service in Kubernetes</h3>
-                <p class="mb-4 text-capitalize font-italic" >tech stack: (Python, Flask, kubernetes, OpenTSDB, Docker, Consul, React, Mysql, Go, Tensorflow Serving)</p>
+                <p class="mb-4 text-capitalize font-italic">tech stack: (Python, Flask, kubernetes, OpenTSDB, Docker, Consul, React, Mysql, Go, Tensorflow Serving)</p>
                 <div>
                   <p class="mb-4">
                     This project aims to implement a auto-scaling service to improve the average GPU usage rate. 
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                 More Details
-                </a>
+                <div ttt="proj-detail">
+                   <a target="_blank" class="cta-btn cta-btn--hero" for="bd.auto-scaling">
+                   More Details
+                   </a>              
+                </div> 
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+              <div ttt="proj-detail" class="project-wrapper__image">
+                <a target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/bd-infrastructure.png" />
+                    <img class="img-fluid" src="./assets/bd-infrastructure.png" for="bd.auto-scaling"/>
                   </div>
                 </a>
               </div>
@@ -146,19 +148,21 @@
                 </div>
                 <div>
                   <p class="mb-4">
-                    In order to find the anomaly in system logs and reduce DevOps time in debugging, I led a group of 3 on log pattern recognition algorithm research, real-time computing service, job-scheduler, Restful API, frontend.
+                    In order to find the anomaly in system logs and reduce DevOps time in debugging, I led a group of 3 on log pattern recognition algorithm research, real-time computing service, job-scheduler, Restful API, frontend. Achieved 100x recognition speed than previous version and adopted by 10+ companies;
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  More Details
-                </a>
+                <div ttt="proj-detail">
+                   <a target="_blank" class="cta-btn cta-btn--hero" for="eoi.log-pattern">
+                   More Details
+                   </a>              
+                </div> 
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+              <div ttt="proj-detail" class="project-wrapper__image">
+                <a target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/eoi-log.png" />
+                    <img class="img-fluid" src="./assets/eoi-log.png"  for="eoi.log-pattern" />
                   </div>
                 </a>
               </div>
@@ -172,21 +176,23 @@
               <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">Multivariate Anomaly Detection System</h3>
                 <div>
-                  <p class="mb-4 text-capitalize font-italic" >tech stack: (Java, Mysql, Spark Mllib, Kafka, Machine Learning)</p>
+                  <p class="mb-4 text-capitalize font-italic" >tech stack: (Java, Mysql, Spark Mllib, Kafka, Machine Learning, MLFlow)</p>
                   <p class="mb-4">
-                    In order to find the system problem in an automatic way, I developed multivariate anomaly training & detection service with data scientist.
+                    In order to find the system problem based on metrics in an automatic way, I collaborated with data scientists to develope multivariate anomaly training & detection services; And designed a flexible framework for data scientists to deploy their service quickly & easily.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  More Details
-                </a>
+                <div ttt="proj-detail">
+                  <a target="_blank" class="cta-btn cta-btn--hero" for="eoi.multivariate">
+                    More Details
+                  </a>
+                </div>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+              <div ttt="proj-detail" class="project-wrapper__image">
+                <a target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/eoi-multivariate-detection.png" for="eoi.multivariate" />
                   </div>
                 </a>
               </div>
@@ -205,16 +211,18 @@
                     Alerts noise reduction platform makes it easier for Devops or SRES to focus the problems that are most relevant, and ignore the noise.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  More Details
-                </a>
+                <div ttt="proj-detail">
+                  <a target="_blank" class="cta-btn cta-btn--hero" for="eoi.noise-reduction">
+                    More Details
+                  </a>
+                </div>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+              <div ttt="proj-detail" class="project-wrapper__image">
+                <a target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/eoi-alerts.png" for="eoi.noise-reduction"/>
                   </div>
                 </a>
               </div>
@@ -223,6 +231,8 @@
           <!-- /END Project -->
         </div>
       </div>
+
+
     </section>
     <!-- /END Projects Section -->
 
@@ -234,14 +244,16 @@
         </h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
-            [Put your call to action here]
+            Phone: +1 (347) 3504024
+          </p>
+          <p class="contact-wrapper__text">
+            Email: zs1243@nyu.edu
           </p>
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+            href="mailto:zs1243@nyu.edu"
+            >Call to Action</a>
         </div>
       </div>
     </section>
@@ -254,16 +266,10 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
+          <a href="https://www.linkedin.com/in/zuquan-song/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a href="#!" target="_blank">
+          <a href="https://github.com/zuquan-song" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -276,27 +282,74 @@
           </a>
         </p>
 
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
+      <div class="display-details" id="bd.auto-scaling" style="display: none">  
+        <div class="frame">
+          <h1 class="project-wrapper__text-title">Horizontal Auto-scaling Service in Kubernetes</h1>
+          <img class="img-fluid" src="./assets/bd-infrastructure.png"/>
+          <div class="img-fluid" style="text-align: left">
+            <ul style="list-style-type: square; padding: 0% 5% 0% 5%">
+              <li>Research on horizontal auto-scaling algorithm for oscillation mitigation, timely scaling, high utilization rate; Compared different industrial algorithms' pros and cons;</li>
+              <li>Utilized scikit-learn & matplotlib to make an overview for current platform’s deployments to explore valuable information; </li>
+              <li>Designed & developed HA service on Kubernetes (cold start, fault tolerance) for ML serving deployment (stateless architecture); </li>
+              <li>Developed client to simulate load with service mesh (service governance) for justify the effectiveness of the algorithm</li>
+              <li>Designed & developed auto-scaling auto-select configuration algorithm based on deployments’ utilization pattern; </li>
+              <li>Developed restful API with Flask, Flask-SQLAlchemy for auto-scaling task CRUD and utilized click library to implement CLI tool;</li>
+              <li>Developed log stream with HDFS for storage and utilized React.js and styled-components to implements UI pages to make service debug easier;</li>
+              <li>Designed & developed scaling service to scale the application proactively for periodic workload;</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="display-details" id="eoi.log-pattern" style="display: none">  
+        <div class="frame">
+          <h1 class="project-wrapper__text-title">Real-time Distributed Log Pattern Recognition System</h1>
+          <img class="img-fluid" src="./assets/eoi-log.png" />
+          <div class="img-fluid" style="text-align: left">
+            <ul style="list-style-type: square; padding: 0% 5% 0% 5%">
+              <li>Designed pipeline solution with Kafka (at-least-once delivery); Data storage with Elasticsearch; Data visualization with Kibana;</li>
+              <li>Developed high-performance distributed log patterns recognition service with Spring Boot</li>
+              <ul>
+                <li>Developed log patterns searching and updating with Lucene to narrow down patterns scope</li>
+                <li>Developed log patterns synchronizer with curator as distributed lock for service scaling;</li>
+              </ul>
+              <li>Developed an anomaly detection service with Spark Streaming for real time error detection;</li>
+              <li>Developed RESTful back-end server with Spring Boot, request router with Ngnix for back-end & front-end separation;</li>
+              <li>Developed dashboard with React, styled-components, CSS grid, fuzzy, highcharts</li>
+              <li>Performance tuning with Jprofiler, Jstat, vmstat, top for performance bottleneck analysis;</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="display-details" id="eoi.multivariate" style="display: none">  
+        <div class="frame">
+          <h1 class="project-wrapper__text-title">Multivariate Anomaly Detection System</h1>
+          <img class="img-fluid" src="./assets/eoi-multivariate-detection.png" />
+          <div class="img-fluid" style="text-align: left">
+            <ul style="list-style-type: square; padding: 0% 5% 0% 5%">
+              <li>Designed ML system lifecycle management with MLFlow framework for model tracking, store, serving (Python); MySQL as backend store;</li>
+              <li>Developed training process with Spark MLlib for scientific computing;</li>
+              <li>Developed the real-time anomaly detection with Spark Streaming, Spring Boot for scoring service, Kafka for Pipeline purpose; </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="display-details" id="eoi.noise-reduction" style="display: none">  
+        <div class="frame">
+          <h1 class="project-wrapper__text-title">Alerts Noise Reduction Platform</h1>
+          <img class="img-fluid" src="./assets/eoi-alerts.png" />
+          <div class="img-fluid" style="text-align: left">
+            <ul style="list-style-type: square; padding: 0% 5% 0% 5%">
+              <li>Assisted in designing microservice solution to meet different customers need in a flexible way (Zuul Proxy, Eureka, Spring Security, MySQL, Elasticsearch);</li>
+              <li>Developed events compression service with Spring Boot for compressing, achieved 90%+ events compression rate;</li>
+              <li>Collaborated with data scientists for developing alerts grouping service to group alerts into situation</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- /END Footer Section -->
